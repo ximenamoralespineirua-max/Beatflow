@@ -4,61 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeatFlow - Planes</title>
+    <link rel="stylesheet" href="../assets/normalize.css">
     <link rel="stylesheet" href="../assets/estilos.css">
 </head>
+
 <body>
 
-   <header>
-        <h1>BeatFlow</h1>
-        <nav>
-            <ul>
-                <li><a href="../inicio.html">Inicio</a></li>
-                <li><a href="./novedades.html">Novedades</a></li>
-                <li><a href="./planes.html">Planes</a></li>
-                <li><a href="./biblioteca.html">Biblioteca</a></li>
-                <li><a href="./login.html">Iniciar Sesión</a></li>
+   <header class="header">
+        <h1 class="header__logo">BeatFlow</h1>
+        <nav class="nav">
+            <ul class="nav__lista">
+                <li class="nav__item"><a class="nav__enlace" href="../index.html">Inicio</a></li>
+                <li class="nav__item"><a class="nav__enlace" href="./novedades.html">Novedades</a></li>
+                <li class="nav__item"><a class="nav__enlace" href="./planes.html">Planes</a></li>
+                <li class="nav__item"><a class="nav__enlace" href="./biblioteca.html">Biblioteca</a></li>
+                <li class="nav__item"><a class="nav__enlace" href="./login.html">Iniciar Sesión</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h2>Elige el plan ideal para ti</h2>
-            <p>Disfruta de música sin anuncios, audio sin pérdida y descargas para escuchar sin conexión.</p>
+    <main class="main">
+        <section class="seccion">
+            <h2 class="seccion__titulo">Elige el plan ideal para ti</h2>
+            <p class="seccion__texto">Disfruta de música sin anuncios, audio sin pérdida y descargas para escuchar sin conexión.</p>
         </section>
 
-        <section>
-            <article>
-                <h3>Plan 1: Estudiante</h3>
-                <p>Acceso completo a todo el catálogo con descuento especial para estudiantes elegibles.</p>
-                <p>Precio: $59.00 MXN / mes</p>
-                <img src="../images/planestudiante.jfif" alt="Inscripción de plan estudiantes">
+        <section class="seccion seccion--fila">
+            <article class="ficha">
+                <h3 class="ficha__titulo">Plan de Estudiante</h3>
+                <p class="ficha__texto">Acceso completo a todo el catálogo con descuento especial para estudiantes elegibles.</p>
+                <p class="ficha__texto">Precio: $59.00 MXN / mes</p>
+                <img class="ficha__imagen" src="../images/planestudiante.jfif" alt="Inscripción de plan estudiantes">
                 <br>
-                <a href="#">Suscribirse</a>
+                <a class="ficha__boton" href="./login.html">Suscribirse</a>
             </article>
 
-            <article>
-                <h3>Plan 2: Individual</h3>
-                <p>Disfruta de toda la música sin límites, saltos ilimitados y la mejor calidad de audio.</p>
-                <p>Precio: $129.00 MXN / mes</p>
-                <img src="../images/planindividual.jfif" alt="Inscripción de plan individual">
+            <article class="ficha">
+                <h3 class="ficha__titulo">Plan Individual</h3>
+                <p class="ficha__texto">Disfruta de toda la música sin límites, saltos ilimitados y la mejor calidad de audio.</p>
+                <p class="ficha__texto">Precio: $129.00 MXN / mes</p>
+                <img class="ficha__imagen" src="../images/planindividual.jfif" alt="Inscripción de plan individual">
                 <br>
-                <a href="#">Suscribirse</a>
+                <a class="ficha__boton" href="./login.html">Suscribirse</a>
             </article>
 
-            <article>
-                <h3>Plan 3: Familiar</h3>
-                <p>Comparte la experiencia con hasta 6 cuentas individuales para toda tu familia.</p>
-                <p>Precio: $199.00 MXN / mes</p>
-                <img src="../images/planfamiliar.jfif" alt="Inscripción de plan familiar">
+            <article class="ficha">
+                <h3 class="ficha__titulo">Plan Familiar</h3>
+                <p class="ficha__texto">Comparte la experiencia con hasta 6 cuentas individuales para toda tu familia.</p>
+                <p class="ficha__texto">Precio: $199.00 MXN / mes</p>
+                <img class="ficha__imagen" src="../images/planfamiliar.jfif" alt="Inscripción de plan familiar">
                 <br>
-                <a href="#">Suscribirse</a>
+                <a class="ficha__boton" href="./login.html">Suscribirse</a>
             </article>
         </section>
     </main>
 
-  <footer>
-    <p>&copy; 2026 BeatFlow  Inc. Todos los derechos reservados.</p>
+  <footer class="footer">
+    <p class="footer__texto">&copy; 2026 BeatFlow  Inc. Todos los derechos reservados.</p>
   </footer>
 
 </body>

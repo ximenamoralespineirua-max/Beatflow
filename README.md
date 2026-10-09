@@ -20,12 +20,14 @@ El sitio cuenta con un menu principal con las siguientes secciones:
 
 Cada pagina tiene informacion relacionada con la plataforma y estan conectadas entre si mediante el menu de navegacion.
 
-## Tecnologias Utilizadas
+## Tecnologias y Metodologías Utilizadas
 
 - HTML5
 - CSS
 - Visual Studio Code
 - Live Server
+- Metodología BEM
+- normalize.css
 
 ## Paginas Desarrolladas
 
@@ -43,7 +45,7 @@ La idea es que el usuario pueda encontrar musica diferente y conocer nuevos arti
 
 ### Planes
 
-Aqui se muestran los diferentes planes disponibles de BeatFlow y la informacion correspondiente a cada uno.
+Aqui se muestran los tres diferentes planes disponibles de BeatFlow y la informacion correspondiente a cada uno.
 
 ### Biblioteca
 
@@ -59,7 +61,7 @@ En esta seccion tambien se puede encontrar musica que el usuario ya habia escuch
 
 ### Iniciar Sesion
 
-Esta pagina cuenta con un formulario para iniciar sesion utilizando correo electronico o ID de Apple y contrasena.
+Esta pagina cuenta con un formulario para iniciar sesion utilizando correo electronico o ID de Apple y contraseña.
 
 Tambien tiene una opcion para iniciar sesion con iPhone.
 
@@ -70,8 +72,6 @@ Tambien tiene una opcion para iniciar sesion con iPhone.
 - Recomendaciones musicales.
 - Recomendaciones de la semana.
 - Seccion de novedades.
-- Descubrimiento de musica nueva.
-- Recomendaciones basadas en canciones escuchadas anteriormente.
 - Seccion de planes.
 - Biblioteca musical.
 - Albumes recientes.
@@ -87,23 +87,9 @@ Tambien tiene una opcion para iniciar sesion con iPhone.
 - Navegador web
 - Extension Live Server
 
-## Instalacion
+## Uso 
 
-1. Descargar el archivo `.zip` del proyecto.
-2. Extraer el archivo `.zip`.
-3. Abrir la carpeta extraida.
-4. Abrir la carpeta en Visual Studio Code.
-
-## Uso
-
-Para abrir el proyecto:
-
-1. Abrir la carpeta del proyecto en Visual Studio Code.
-2. Buscar el archivo `index.html`.
-3. Dar clic derecho sobre el archivo.
-4. Seleccionar `Open with Live Server`.
-5. Se abrira la pagina en el navegador.
-6. Desde el menu se puede entrar a Inicio, Novedades, Planes, Biblioteca e Iniciar Sesion.
+Visualización del proyecto mediante Github. Te mueves por las diferentes páginas mediante el menú o seleccionando de las diferentes opciones.
 
 ## Integrantes
 
